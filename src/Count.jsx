@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import { AiFillCaretUp, AiFillCaretDown } from "react-icons/ai";
 
 const Count = ({ vote_average, onVoteChange }) => {
-    const [count, setCount] = useState(vote_average);
+    const count = vote_average;
 
     const IncCount = () => {
-        setCount(count + 1);
+        
         onVoteChange(count + 1);
     }
 
     const DecCount = () => {
-        setCount(count - 1);
+        
         onVoteChange(count - 1);
     }
 
