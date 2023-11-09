@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.scrool::-webkit-scrollbar {
+
+   
+    padding: 15px;
+    background-color: rgb(239, 68, 68);
+   
+
+}
+
+.scrool::-webkit-scrollbar-thumb:vertical {
+
+    background-color: rgb(203, 109, 203);
+
+}
